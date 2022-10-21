@@ -45,11 +45,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
-.contenedor {
-  max-width: 1400px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 .hero {
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -210,6 +206,14 @@ section {
   width: 100vw;
   height: 100vh;
 }
+
+
+.contenedor {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
 section.about h1 {
   margin-bottom: 1rem;
   font-size: 1.6rem;
@@ -229,6 +233,7 @@ section.about p {
   color: var(--secondary);
   line-height: 1.9rem;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 section.about .socials {
   display: flex;
@@ -253,6 +258,36 @@ section.about .socials a:hover {
 
 section.about .socials a i {
   color: var(--bgDark);
+}
+
+@media (max-width: 480px) {
+  .about{
+    height: 100%;
+    padding: 10px;
+  }
+  .contenedor .right{
+    min-width: 300px;
+  }
+  .contenedor .left, .right{
+    margin-right: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .about{
+    height: 100%;
+    padding: 10px;
+  }
+  .contenedor{
+    padding: 10px;
+  }
+  .contenedor .left, .right{
+    margin-right: 20px;
+  }
+  .contenedor .right{
+    min-width: 300px;
+  }
 }
 
 /* finish section about */
@@ -700,9 +735,6 @@ span {
 }
 
 .note {
-  position: absolute;
-  left: 0;
-  bottom: 10px;
   width: 100%;
   text-align: center;
   font-family: Lusitana, serif;
