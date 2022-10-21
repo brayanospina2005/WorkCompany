@@ -265,7 +265,7 @@ section.about .socials a i {
     height: 100%;
     padding: 10px;
   }
-  .contenedor .right{
+  .about .contenedor .right{
     min-width: 300px;
   }
   .contenedor .left, .right{
