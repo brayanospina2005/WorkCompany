@@ -285,7 +285,7 @@ section.about .socials a i {
   .contenedor .left, .right{
     margin-right: 20px;
   }
-  .contenedor .right{
+  .about .contenedor .right{
     min-width: 300px;
   }
 }
