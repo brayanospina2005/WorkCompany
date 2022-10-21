@@ -677,6 +677,14 @@ span {
   padding: 0%;
   padding-top: 100px;
 }
+@media screen and (max-width: 480px) {
+  .get-in-touch{
+    height: 100%;
+  }
+  
+}
+
+
 .get-in-touch .title {
   text-align: center;
   font-family: Raleway, sans-serif;
