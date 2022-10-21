@@ -17,3 +17,13 @@ document.getElementById("cards").onmousemove = e => {
   open.addEventListener("click", () => {
     menu.style.visibility = "visible";
   });
+
+  /* contact */
+
+  $( '.js-input' ).keyup(function() {
+    if( $(this).val() ) {
+       $(this).addClass('not-empty');
+    } else {
+       $(this).removeClass('not-empty');
+    }
+  });

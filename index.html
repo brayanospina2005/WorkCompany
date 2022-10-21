@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b3f19fcb86.js" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="contenedor">
             <nav class="flex items-centre justify-between">
                 <div class="left flex justfiy-right items-centre">
                     <div class="logo">
@@ -31,22 +32,27 @@
                         <a href="#about">About</a>
                         <a href="#services">Services</a>
                         <a href="#">Blog</a></li>
-                        <a href="#">More</a>
+                        <a href="#">Contact</a>
                     </div>
                 </div>
                 <div class="right">
+                    <a href="./login.html">
 
-                    <button> Log in
-                    </button>
-                    <button> Sign Up
-                    </button>
+                        <button> Log in
+                        </button>
+                    </a>
+                    <a href="./login.html">
+
+                        <button> Sign Up
+                        </button>
+                    </a>
             </nav>
         </div>
     </header>
-    <div id="imagen">
-        <img src="./asset/img/night-view-of-victoria-harbor-hong-kong.jpg" alt="background">
+    <!-- <div id="imagen">
+        <img src="./asset/img/professional-programmer-working-late-in-the-dark-office.jpg" alt="background">
 
-    </div>
+    </div> -->
     <div class="hero flex items-centre justify-between">
         <div class="left flex-1 justify-center flex-2">
             <img src="./asset/img/successful-business-team-expressing-unity.jpg" alt="Profile">
@@ -62,7 +68,7 @@
     </div>
     <!-- init section -->
     <section class="about" id="about">
-        <div class="container flex items-centre">
+        <div class="contenedor flex items-centre">
             <div class="left flex-1 justify-right">
                 <img src="./asset/img/graphic-video-production-working-on-pc-with-two-displays-editing-video-and-audio-footage-sitting-in-creative-workplace.jpg"
                     height="400px" alt="profile pic">
@@ -88,7 +94,7 @@
     </section>
     <!-- init a section of services -->
     <section class="services" id="services">
-        <div class="Container">
+        <div class="contenedor">
             <h1 class="services-head">Services</h1>
             <p>All your digital needs... covered.</p>
             <div id="cards">
@@ -191,8 +197,31 @@
             </div>
         </div>
     </section>
+    <!-- init section contact -->
+    <section class="get-in-touch">
+        <h1 class="title">Contact Us</h1>
+        <form class="contact-form rowed">
+           <div class="form-field col x-50">
+              <input id="name" class="input-text js-input" type="text" required>
+              <label class="label" for="name">Name</label>
+           </div>
+           <div class="form-field col x-50">
+              <input id="email" class="input-text js-input" type="email" required>
+              <label class="label" for="email">E-mail</label>
+           </div>
+           <div class="form-field col x-100">
+              <input id="message" class="input-text js-input" type="text" required>
+              <label class="label" for="message">Message</label>
+           </div>
+           <div class="form-field col x-100 align-center">
+              <input class="submit-btn" type="submit" value="Submit">
+           </div>
+        </form>
+     </section>
+     <p class="note">Based on <a class="link" href="http://redcollar.digital/contacts/" target="blank">Red Collar Contact Form</a>.</p>
+    <!-- init footer -->
     <footer class="site-footer">
-        <div class="container">
+        <div class="contenedor">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <h6>About</h6>
@@ -216,14 +245,14 @@
                                 Ospina</a></li>
                         <li><a href="https://www.linkedin.com/in/lizbeth-grisales-castro" target="_blank">Damian
                                 Tuberquia</a></li>
-                        <li><a href="https://www.instagram.com/poliandino_" target="_blank">######</a></li>
+                        <li><a href="https://www.instagram.com/poliandino_" target="_blank">Juan Castrillon</a></li>
                         <li><a href="#" target="_blank">######</a></li>
                     </ul>
                 </div>
             </div>
             <hr>
         </div>
-        <div class="container">
+        <div class="contenedor">
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved
@@ -244,8 +273,12 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
     <script src="./asset/js/app.js"></script>
 </body>
 
