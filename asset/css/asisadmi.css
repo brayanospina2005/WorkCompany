@@ -112,6 +112,9 @@ section.about .socials a i {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+.contenedor .left img{
+  width: 300px;
+}
 
 @media (max-width: 480px) {
   .about {
@@ -222,19 +225,19 @@ section.about .socials a i {
 }
 
 #information-card1 {
-  background: url("https://as2.ftcdn.net/v2/jpg/05/09/97/93/1000_F_509979374_7lmaJBC0baePnEdUMsG4FPGK4LffFmn5.jpg");
+  background: url("https://img.freepik.com/foto-gratis/venta-plantas-compras-linea-comercio-electronico_53876-132256.jpg?w=360&t=st=1666488256~exp=1666488856~hmac=0b55fd8c740f7ed840339c8057cdd6625f87602ba6f815237764f41b0abf6fc0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #information-card2 {
-  background: url("https://as2.ftcdn.net/v2/jpg/02/66/47/87/1000_F_266478779_PyemBU8X8SjGHJxm41R4J7I3LHRlzbmE.jpg");
+  background: url("https://img.freepik.com/psd-gratis/maqueta-interfaz-usuario-pantalla-aplicacion-flexible-flotante_1332-12476.jpg?w=360&t=st=1666488205~exp=1666488805~hmac=8e43ec1aa36eac06c0caa225cf57bbb49ba5240459db0434878d92ca6af70333");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #information-card3 {
-  background: url("https://as2.ftcdn.net/v2/jpg/03/41/11/83/1000_F_341118354_F8TwZtksjhZ7bVkQR55SmWIVqDZ3895E.jpg");
+  background: url("https://img.freepik.com/foto-gratis/robot-casero-escritorio_23-2148863418.jpg?w=360&t=st=1666488312~exp=1666488912~hmac=89918c15032b2cc3136fd267b370a8b01b83257686c50e52b959621a5b13743a");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
